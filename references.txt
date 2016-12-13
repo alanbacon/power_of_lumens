@@ -7,3 +7,4 @@ http://ftgsoftware.com/issues_news2013.htm
 photopic curve:
 http://donklipstein.com/photopic.html
 
+https://www.ecse.rpi.edu/~schubert/Light-Emitting-Diodes-dot-org/Sample-Chapter.pdf
