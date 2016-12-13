@@ -18,7 +18,7 @@ def readcsv(filename):
 
 ## read photopic curve data
 
-filename = 'photopic_curve.csv'
+filename = 'scotopic_curve.csv'
 
 photopic_data = readcsv(filename)
 
@@ -124,7 +124,7 @@ for f in spectralFiles:
         lumens_per_nm = watts_per_nm * e[1] * 683.002
         # integrating wrt nanometers, and there is one value per nanometer
         # so a good approximation of the integral can be calculated by summation
-        total_lumens += lumens_per_nm # * 1nm    
+        total_lumens += lumens_per_nm * 5    
 
     print(f + ': ' + str(total_lumens) + ' lm per watt of visible light')
 
