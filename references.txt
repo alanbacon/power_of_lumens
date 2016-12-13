@@ -1,0 +1,9 @@
+LED and Fluorescent Spectral Data
+http://www.designingwithleds.com/light-spectrum-charts-data/
+
+LED spectral data for 5000K (daylight)
+http://ftgsoftware.com/issues_news2013.htm
+
+photopic curve:
+http://donklipstein.com/photopic.html
+
