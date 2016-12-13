@@ -25,8 +25,8 @@ photopic_data = readcsv(filename)
 wavelengths = [e[0] for e in photopic_data]
 photopic_vals = [e[1] for e in photopic_data]
 
-minWavelength_nm = photopic_data[0][0]    # end of visible spectrum
-maxWavelength_nm = photopic_data[-1][0]   # start of visible spectrum
+minWavelength_nm = 390    # end of visible spectrum
+maxWavelength_nm = 700   # start of visible spectrum
 
 
 ## luminosity funcs
